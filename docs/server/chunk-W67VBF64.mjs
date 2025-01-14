@@ -1,0 +1,2 @@
+import './polyfills.server.mjs';
+import{a as p,b as r,c as n,d as i,e as m,j as a,m as f,o as s,p as c,s as l,y as d}from"./chunk-X53DNMB2.mjs";var o=class e{title="testAng";static \u0275fac=function(t){return new(t||e)};static \u0275cmp=p({type:e,selectors:[["app-root"]],standalone:!0,features:[m],decls:2,vars:0,template:function(t,R){t&1&&(r(0,"h1"),i(1,"Hello World"),n())}})};var g=[];var u={providers:[a({eventCoalescing:!0}),d(g),c()]};var A={providers:[l()]},C=f(u,A);var x=()=>s(o,C),k=x;export{k as a};
