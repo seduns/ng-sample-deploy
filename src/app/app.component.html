@@ -1,2 +1,11 @@
-<h1>Hello World</h1>
-<p>test push</p>
+
+  <form id="todo-form">
+    <input type="text" id="todo-input" placeholder="Add a new task..." required>
+    <button type="submit">Add</button>
+  </form>
+  <ul id="todo-list"></ul>
+  <button class="show" (click)="btnClick()" >Click</button>
+
+
+<div *ngIf="isClick">Show</div>
+  
